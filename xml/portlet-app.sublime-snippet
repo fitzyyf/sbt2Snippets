@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<portlet-app 
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+        http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+	${1:<portlet>
+        <portlet-name>${2:portlet}</portlet-name>
+        <portlet-class>
+            org.springframework.web.portlet.DispatcherPortlet
+        </portlet-class>
+        <init-param>
+          <name>contextConfigLocation</name>
+          <value>${3:WEB-INF/weather-portlet.xml}</value>
+        </init-param>
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>${4:servlet-name}</portlet-mode>
+        </supports>
+        <portlet-info>
+            <title>${5:portlet}</title>
+        </portlet-info>
+    </portlet>}
+</portlet-app>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>app-portlet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+</snippet>

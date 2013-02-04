@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<context-param>
+	<param-name>contextConfigLocation</param-name>
+	<param-value>
+		classpath:${1:spring/applicationContext.xml}
+	</param-value>
+</context-param>
+
+
+<!-- Creates the Spring Container shared by all Servlets and Filters -->
+<listener>
+	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+</listener>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>spring-listener</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>

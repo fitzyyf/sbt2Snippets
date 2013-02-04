@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+#!/usr/bin/python
+# -*- coding: utf-8 -*- 
+# Copyright (c) 2012-${1:2012}.year www.iflytek.com. All Rights Reserved.
+# This software for customer relationship management system, developed by Ifly@ZY team.
+# Software code and design for the team, copy rights reserved.
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>py-copy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

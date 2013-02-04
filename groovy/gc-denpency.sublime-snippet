@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:compile} '${2:com.google.guava}:${3:guava}:${4:13.0.1}'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gradle-depency</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.groovy</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/* ==========================================================
+ * ${1:Bootstrap Goes} JavaScript Library 
+ * ${2:$TM_FILENAME} ${3:v0.0.1}
+ * ${4:http://www.google.com}.
+ * ==========================================================
+ * Copyright ${5:2012} Yiware, Inc.All Rights Reserved.
+ * This software for customer relationship management system, developed by Ifly@ZY team.
+ * Software code and design for the team, copy rights reserved.
+ * ========================================================== */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>goes-cy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

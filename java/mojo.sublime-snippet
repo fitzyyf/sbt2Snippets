@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * This mojo is designed to ${1:give you a build number}. 
+ *
+ * @author <a href="mailto:poplar1123@gmail.com">yfyang</a>
+ * @version \$Id: ${2:$TM_FILENAME} 16316 ${3:"time"}Z olamy \$
+ * @goal ${4:create}
+ * @phase initialize
+ * @requiresProject
+ * @description ${5:create a build number from scm or an integer sequence}
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mojo-doc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>

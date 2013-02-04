@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * <p>
+ * ${1:$TM_FILENAME}
+ * </p>
+ * <pre>
+ * 	${2:sample}
+ * </pre>
+ *
+ * @author poplar.yfyang
+ * @version 1.0 ${2:2012-12-12 12:12}
+ * @since JDK 1.5
+ */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>clsdoc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>

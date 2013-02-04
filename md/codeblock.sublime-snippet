@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+{% codeblock ${1:title} ${2:lang:${4:bash ${5:${6:http://js} ${7:link text}} }} %}
+code snippet
+{% endcodeblock %}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>codeblock</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.markdown</scope>
+</snippet>

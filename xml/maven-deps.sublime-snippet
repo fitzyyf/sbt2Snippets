@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<dependency>
+    <groupId>${1:junit}</groupId>
+    <artifactId>${2:junit}</artifactId>
+    <version>${3:4.11}</version>
+</dependency>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dep</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+</snippet>
